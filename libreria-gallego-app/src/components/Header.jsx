@@ -1,4 +1,5 @@
-import Logo_imagen from "../src/assets/libreria-logo.png";
+import logo_imagen from "../assets/libreria-logo.png";
+
 
 export default function Header() { 
   return ( 
@@ -18,7 +19,7 @@ export default function Header() {
         {/* Imagen / logo */}
         <div className="relative"> 
           <div className="rounded-full p-0 grid place-items-center"> 
-            <img src={Logo_imagen} alt="Logo Librería Gallego" className="rounded-full w-64 h-64 object-cover shadow-[0_0_20px_4px_rgba(60,140,86,0.7)]"/> 
+            <img src={logo_imagen} alt="Logo Librería Gallego" className="rounded-full w-64 h-64 object-cover shadow-[0_0_20px_4px_rgba(60,140,86,0.7)]"/> 
           </div> 
         </div> 
       </div> 
